@@ -49,7 +49,7 @@ h1.title{
 }
 
 .bg-image{
-    background-image:url('/images/Background.png');
+    background-image:url('./images/Background.png');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
