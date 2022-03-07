@@ -88,6 +88,13 @@ span.highlight-text{
     text-transform: uppercase;
 }
 
+.typeform-wrapper{
+    position: relative;
+    margin-top: -250px;
+    margin-left:5%;
+    margin-right:5%;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .title-wrapper{
@@ -115,5 +122,8 @@ span.highlight-text{
     }
     .bg-image{
         min-height:200px;
+    }
+    .typeform-wrapper{
+        margin-top: -150px;
     }
 }
