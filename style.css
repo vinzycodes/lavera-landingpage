@@ -53,7 +53,7 @@ h1.title{
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-
+    min-height: 320px;
 }
 
 
