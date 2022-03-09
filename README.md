@@ -1,2 +1,2 @@
 # lavera-landingpage
-Click the "CODE" button and "DOWNLOAD AS ZIP" to download the files
+Click the "CODE" button and "DOWNLOAD ZIP" to download the files.
