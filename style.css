@@ -56,6 +56,10 @@ h1.title{
     min-height: 320px;
 }
 
+.defaultSplashTextContent{
+    padding-left:20px;
+    padding-right:20px;
+}
 
 .content-wrapper{
     font-size:20px;
@@ -137,5 +141,8 @@ span.highlight-text{
     }
     .typeform-wrapper{
         margin-top: -150px;
+    }
+    .defaultSplashTextContent{
+        font-size:20px;
     }
 }
