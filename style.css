@@ -15,6 +15,10 @@ img{
     max-width: 100%;
 }
 
+.text-center{
+    text-align: center;
+}
+
 .centered{
     text-align: center;
 }
@@ -44,8 +48,15 @@ h1.title{
 }
 .title-2{
     color:#565656;
-    font-size:30px;
+    font-size:40px;
     text-transform:uppercase;
+    line-height:100%;
+    margin:10px;
+
+}
+
+.banner-img img{
+    display: block;
 }
 
 .bg-image{
@@ -61,14 +72,16 @@ h1.title{
     padding-right:20px;
 }
 
-.content-wrapper{
+.content-wrapper, .content-wrapper a{
     font-size:20px;
     font-weight:bold;
+    color:#565656;
 }
 
 .typeform-wrapper{
     position: relative;
-    margin-top: -280px;
+    margin-top: -100px;
+    min-height:400px;
     margin-left:5%;
     margin-right:5%;
 }
@@ -92,6 +105,7 @@ h1.title{
     font-weight:bold;
     padding:20px;
     margin:1rem;
+    text-decoration: none;
 }
 
 span.highlight-text{
@@ -111,6 +125,14 @@ span.highlight-text{
     text-decoration:none;
 }
 
+.full-screen{
+    position:absolute;
+    width:100vw;
+    height:100vh;
+    background-color:#ffffff;
+    z-index: 423423423;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .title-wrapper{
@@ -123,7 +145,7 @@ span.highlight-text{
         font-size:20px;
     }
     .title-2{
-        font-size:30px;
+        font-size:29px;
     }
     .content-wrapper{
         font-size:15px;
@@ -139,10 +161,10 @@ span.highlight-text{
     .bg-image{
         min-height:200px;
     }
-    .typeform-wrapper{
-        margin-top: -150px;
-    }
     .defaultSplashTextContent{
         font-size:20px;
+    }
+    .typeform-wrapper{
+        min-height:500px;
     }
 }
